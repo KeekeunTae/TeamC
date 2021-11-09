@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 입력화면</title>
+</head>
+<body>
+<div alihn="center">
+<h3>회원가입 입력화면</h3>
+<form action="memberJoin.do" method="post">
+<table border="1" style="width:60%">
+	<tr>
+		<th>이름</th>
+		<td><input type= "text " name="name" required="required"/></td>
+
+	</tr>
+</table>
+
+
+</form>
+</div>
+</body>
+</html>

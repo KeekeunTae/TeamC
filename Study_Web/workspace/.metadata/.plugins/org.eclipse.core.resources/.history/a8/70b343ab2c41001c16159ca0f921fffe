@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello Servlet</title>
+</head>
+<body>
+<form action="hs.do" method="post"></form>
+<input type="submit" value="Hello Servlet"/>
+</body>
+</html>
