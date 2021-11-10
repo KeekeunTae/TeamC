@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class ExVariable_Contrl {
-
+public class ExVariable_Control {
 	public static void main(String[] args) {
 		//변수 ~ 제어문 복습
 		//변수라는것은 데이터를 담기위한 그릇 메모리의 주소부를 개발자가 직접 참조하는게아니라
@@ -61,4 +60,8 @@ public class ExVariable_Contrl {
 		
 	}
 }
+
+
+
+
 
