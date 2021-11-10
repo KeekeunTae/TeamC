@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ExVariable_Control {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		//변수 ~ 제어문 복습
 		//변수라는 것은 데이터를 담기 위한 그릇 메모리의 주소부를 개발자가 직접 참조하는게 아니라
 		//변수의 이름을 가지고 접근한다.

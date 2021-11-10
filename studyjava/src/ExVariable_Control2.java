@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 public class ExVariable_Control2 {
 	public static void main(String[] args) {
 		//if(조건식) {조건식 참일때 실행되는 부분}
