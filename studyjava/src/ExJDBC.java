@@ -160,6 +160,9 @@ public class ExJDBC {
 				conn.close();
 			}
 <<<<<<< HEAD
+		} catch (Exception e) {
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	
@@ -176,11 +179,14 @@ public class ExJDBC {
 		} catch (Exception e) {
 >>>>>>> origin/jhi
 >>>>>>> 443ce8191cd59b9764c31a2afdaf61cced0ac35d
+>>>>>>> origin/kwk
 			e.printStackTrace();
 		}
 	}
 <<<<<<< HEAD
 	
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 	
 	
@@ -258,10 +264,14 @@ public class ExJDBC {
 >>>>>>> 1ffaaa86f7a196a2870f89bec9af2d588463f529
 =======
 =======
+>>>>>>> origin/kwk
 	
 	
 		
 	
+<<<<<<< HEAD
+=======
 >>>>>>> origin/jhi
 >>>>>>> 443ce8191cd59b9764c31a2afdaf61cced0ac35d
+>>>>>>> origin/kwk
 }
