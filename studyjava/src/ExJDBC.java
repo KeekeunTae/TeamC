@@ -94,60 +94,13 @@ public class ExJDBC {
 			if (conn != null) {
 				conn.close();
 			}
-<<<<<<< HEAD
-		} catch (SQLException e) {
-=======
 		} catch (Exception e) {
->>>>>>> origin/jhi
 			e.printStackTrace();
 		}
 	}
 	
-<<<<<<< HEAD
-	public ArrayList<JdbcDTO> memberSelect() {
-		ArrayList<JdbcDTO> list = new ArrayList<>();
-		conn = getConn();
-		String sql = " select  a.*, b.* " + 
-				"        " + 
-				"		from  (select employee_id, first_name || ' ' || last_name name, email ,salary , department_id, manager_id  " + 
-				"         from employees ) a , " + 
-				"        (select max(salary) max_sal, min(salary) min_sal " + 
-				"         from   employees) b ";
-		
-		try {
-			ps = conn.prepareStatement(sql);
-			rs = ps.executeQuery();
-			while (rs.next()) {			//employee_id, name, email, salary, department_id, manager_id, max_sal, min_sal
-				list.add(new JdbcDTO   (rs.getInt("employee_id"), 
-										rs.getString("name"),
-										rs.getString("email"), 
-										rs.getInt("salary"),
-										rs.getString("department_id"),
-										rs.getString("manager_id"),
-										rs.getInt("max_sal"),
-										rs.getInt("min_sal")));
-				for (JdbcDTO dto : list) {
-					System.out.println(dto.getEmployee_id() + " " + 
-									   dto.getFirst_name() + " " + 
-									   dto.getLast_name() + " " + 
-									   dto.getEmail() + " " + 
-									   dto.getSalary() + " " + 
-									   dto.getDepartment_id() + " " + 
-									   dto.getManager_id());
-				}
-			}
-		} catch (Exception e) {
-			System.out.println("memberSelect()에서 에러 발생!");
-		} finally {
-			dbClose();
-		}
-		return list;
-	
-	}
-=======
 	
 	
 		
 	
->>>>>>> origin/jhi
 }
