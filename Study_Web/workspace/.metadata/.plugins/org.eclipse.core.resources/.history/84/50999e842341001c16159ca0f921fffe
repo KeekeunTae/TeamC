@@ -1,0 +1,5 @@
+package com.hanul.member;
+
+public class MemberDTO {
+
+}
