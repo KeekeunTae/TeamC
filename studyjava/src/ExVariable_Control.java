@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ExVariable_Control {
 	public static void main(String[] args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//변수 ~ 제어문 복습!
 		//변수라는것은 데이터를 담기 위한 그릇, 메모리의 주소부를 개발자가 직접 참조하는게 아니라
 		//변수의 이름을 가지고 접근을 한다.
@@ -23,6 +24,8 @@ public class ExVariable_Control {
 		num = (int)chr;
 		//Wrapper Class
 =======
+=======
+>>>>>>> origin/jhi
 		//변수 ~ 제어문 복습
 		//변수라는 것은 데이터를 담기 위한 그릇 메모리의 주소부를 개발자가 직접 참조하는게 아니라
 		//변수의 이름을 가지고 접근한다.
@@ -39,12 +42,16 @@ public class ExVariable_Control {
 		char chr = '1';
 		num = Integer.parseInt(chr+"");//어떤 일반변수를 String으로 바꾸는 방법은 변수 + String
 		//Wrapper Class 일반변수와 이름이 같은데 Class형태
+<<<<<<< HEAD
 >>>>>>> 8b1fa736bcfedf3686c58a9698afe485d36dab64
+=======
+>>>>>>> origin/jhi
 		//Double.parseDouble(s);
 		//Float.parseFloat(s);
 		str = num+"";
 		
 		//제어문 프로그램을 올바른 방향(개발자가 원하는 방향)으로 제어하기 위한 문법.
+<<<<<<< HEAD
 <<<<<<< HEAD
 		//if문 
 		//if ( 조건식 ) { 조건식이 참일때 실행 되는 부분 }
@@ -82,6 +89,8 @@ public class ExVariable_Control {
 		
 		
 =======
+=======
+>>>>>>> origin/jhi
 		//if문
 		//if(조건식) {조건식이 참일때 실행되는 부분}
 		//※조건식은 반드시 true, false가 되어야 한다.
@@ -113,7 +122,10 @@ public class ExVariable_Control {
 			System.out.println("A와 값이 같습니다.");
 		}else
 			System.out.println("값이 다릅니다.");
+<<<<<<< HEAD
 >>>>>>> 8b1fa736bcfedf3686c58a9698afe485d36dab64
+=======
+>>>>>>> origin/jhi
 		
 	}
 }

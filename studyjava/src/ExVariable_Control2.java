@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 public class ExVariable_Control2 {
 	public static void main(String[] args) {
@@ -24,6 +25,8 @@ public class ExVariable_Control2 {
 		System.out.println(num1 + " num1 은 메인메소드 블럭안에서 전체 사용가능하다.");
 		
 =======
+=======
+>>>>>>> origin/jhi
 public class ExVariable_Control2 {
 	public static void main(String[] args) {
 		//if(조건식) {조건식 참일때 실행되는 부분}
@@ -47,6 +50,9 @@ public class ExVariable_Control2 {
 		}
 		System.out.println(num1);
 		//System.out.println(num2);//num2변수는 if문의 지역변수이기 때문에 if문의 블럭이 끝나는 순간 사용이 불가능 하다.
+<<<<<<< HEAD
 >>>>>>> 8b1fa736bcfedf3686c58a9698afe485d36dab64
+=======
+>>>>>>> origin/jhi
 	}
 }

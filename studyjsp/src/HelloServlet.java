@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/hs.do")	//Servlet Mapping 자동설정
 public class HelloServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) 
+<<<<<<< HEAD
 			throws ServletException, IOException {
 			//1. 클라이언트의 요청을 받는다 : 매개변수를 가져온다 -> HttpServletRequest
 			//2. 비지니스 로직 : DB연동하여 결과를 리턴한다 -> 별도의 Class에 작성
