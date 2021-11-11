@@ -21,9 +21,15 @@
 ○ HelloServlet
 	helloServlet.html → hs.do → web.xml → HelloServlet.java → HelloServlet.class
 
+○ Servlet01
+	numberCalc01.html → s01.do → web.xml → Servlet01.java
 
-
-
+○ Servlet02
+	numberCalc02.html → s02.do → web.xml → Servlet02.java → SumMachine.java
+                                                                     ↓	
+	result.jsp ←---------------------------------- sum      ←    getSum();    
+	|==========================|=============================|=================|
+	           View                      Controller                 Model                             
 
 
 

@@ -1,9 +1,12 @@
-CREATE TABLE Member(name VARCHAR2(20),
-  id VARCHAR2(20),
-  pw VARCHAR2(20),
-  age number,
-  addr VARCHAR2(50),
-  tel VARCHAR2(20)
-  );
-  
-  select * from Member;
+-- 테이블 생성
+create table Member(
+  name  varchar2(20),
+  id    varchar2(20),
+  pw    varchar2(20),
+  age   number,
+  addr  varchar2(50),
+  tel   varchar2(20)
+);
+
+-- 전체레코드 검색
+select * from Member;
